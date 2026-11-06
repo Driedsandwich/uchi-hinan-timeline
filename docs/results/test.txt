@@ -1,0 +1,13 @@
+
+> uchi-timeline@1.0.0 test
+> vitest run
+
+
+ RUN  v4.1.12 <作業機>
+
+
+ Test Files  3 passed (3)
+      Tests  94 passed (94)
+   Start at  04:06:32
+   Duration  704ms (transform 421ms, setup 0ms, import 984ms, tests 367ms, environment 0ms)
+

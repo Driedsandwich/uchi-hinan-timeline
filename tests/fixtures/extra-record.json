@@ -1,0 +1,44 @@
+[
+  {
+    "id": "landslide",
+    "lon": 138.1702423095703,
+    "lat": 37.15976932366476,
+    "pixel": {
+      "z": 17,
+      "x": 115842,
+      "y": 50944,
+      "px": 64,
+      "py": 64
+    },
+    "rgba": [
+      255,
+      153,
+      0,
+      255
+    ],
+    "source": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/17/115842/50944.png",
+    "file": "extra-landslide.png",
+    "sha256": "61a7f1293283967863ded9d79d177cb05fdede254e03684f3579443dfe0724c9"
+  },
+  {
+    "id": "tsunami",
+    "lon": 139.4322967529297,
+    "lat": 35.323529140503496,
+    "pixel": {
+      "z": 17,
+      "x": 116301,
+      "y": 51773,
+      "px": 192,
+      "py": 64
+    },
+    "rgba": [
+      255,
+      216,
+      192,
+      255
+    ],
+    "source": "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/17/116301/51773.png",
+    "file": "extra-tsunami.png",
+    "sha256": "6629b660f11739b6de1efcdb875dc85a57a3f4f5910271a831dc3b3c080f1cfa"
+  }
+]

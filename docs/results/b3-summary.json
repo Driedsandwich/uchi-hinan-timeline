@@ -1,0 +1,57 @@
+{
+  "test": {
+    "files": 3,
+    "passed": 94,
+    "failed": 0
+  },
+  "build": {
+    "passed": true
+  },
+  "eval": {
+    "cases": 14,
+    "matched": 172,
+    "total": 176,
+    "accuracy": 97.73,
+    "schemaPassed": 14,
+    "fixedPublicChecks": 6,
+    "livePublicChecks": 18,
+    "liveLocations": 3
+  },
+  "realAI": {
+    "status": "not_run",
+    "reason": "AI_API_KEY / AI_MODEL not configured",
+    "commandExitCode": 2
+  },
+  "ui": {
+    "samples": 3,
+    "freshInput": true,
+    "shareNoAPI": true,
+    "errorRecovery": true,
+    "browserErrors": 0
+  },
+  "design": {
+    "variantWidthChecks": 10,
+    "captureWidthChecks": 12,
+    "overflow": 0,
+    "browserErrors": 0
+  },
+  "print": {
+    "samples": 3,
+    "pagesEach": [
+      1,
+      1,
+      1
+    ],
+    "pngSize": [
+      1050,
+      1485
+    ]
+  },
+  "bundle": {
+    "steps": 3,
+    "passed": true
+  },
+  "protectedFilesUnchanged": 35,
+  "newDependencies": 0,
+  "deployed": false
+}

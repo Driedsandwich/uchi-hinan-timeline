@@ -1,0 +1,23 @@
+[
+  {
+    "sample": 1,
+    "pages": 1,
+    "width": 1050,
+    "height": 1485,
+    "labelsPresent": true
+  },
+  {
+    "sample": 2,
+    "pages": 1,
+    "width": 1050,
+    "height": 1485,
+    "labelsPresent": true
+  },
+  {
+    "sample": 3,
+    "pages": 1,
+    "width": 1050,
+    "height": 1485,
+    "labelsPresent": true
+  }
+]

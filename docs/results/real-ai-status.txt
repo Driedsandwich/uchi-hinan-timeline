@@ -1,0 +1,5 @@
+
+> uchi-timeline@1.0.0 eval:ai
+> tsx eval/run.ts --real
+
+本物のAI評価は未実施：AI_API_KEY と AI_MODEL が必要です。鍵をファイルに書かず環境変数で渡してください。

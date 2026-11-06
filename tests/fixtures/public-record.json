@@ -1,0 +1,407 @@
+{
+  "recordedAt": "2026-11-05T17:55:02.312Z",
+  "records": [
+    {
+      "id": "plain",
+      "address": "東京都江戸川区中央一丁目4番1号",
+      "point": {
+        "lat": 35.706589,
+        "lon": 139.86792,
+        "label": "東京都江戸川区中央一丁目４番１号"
+      },
+      "geocodeSource": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%B1%9F%E6%88%B8%E5%B7%9D%E5%8C%BA%E4%B8%AD%E5%A4%AE%E4%B8%80%E4%B8%81%E7%9B%AE4%E7%95%AA1%E5%8F%B7",
+      "hazards": [
+        {
+          "id": "flood",
+          "name": "洪水（想定最大規模）",
+          "source": "https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.579Z",
+          "rgba": [
+            255,
+            183,
+            183,
+            255
+          ],
+          "status": "colored",
+          "label": "3〜5m未満",
+          "upper": 5
+        },
+        {
+          "id": "debris",
+          "name": "土砂・土石流",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.580Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "steep",
+          "name": "土砂・急傾斜地の崩壊",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.581Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "landslide",
+          "name": "土砂・地すべり",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.582Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "surge",
+          "name": "高潮",
+          "source": "https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.583Z",
+          "rgba": [
+            255,
+            145,
+            145,
+            255
+          ],
+          "status": "colored",
+          "label": "5〜10m未満",
+          "upper": 10
+        },
+        {
+          "id": "tsunami",
+          "name": "津波",
+          "source": "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/17/116460/51601.png",
+          "pixel": {
+            "z": 17,
+            "x": 116460,
+            "y": 51601,
+            "px": 91,
+            "py": 231
+          },
+          "checkedAt": "2026-11-05T17:55:00.584Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        }
+      ],
+      "files": [
+        {
+          "hazard": "flood",
+          "file": "plain-flood.png",
+          "sha256": "230e771cb5e100fe511b3a00cf456b15b654542926261fd35fa15a0bd24d4c28"
+        },
+        {
+          "hazard": "surge",
+          "file": "plain-surge.png",
+          "sha256": "24457d3b5bcff5f6f9507522c3936a2edd12f602c2b5a1ecbd5904587f3ef802"
+        }
+      ],
+      "shelterFile": "plain-shelters.geojson",
+      "shelterSource": "https://cyberjapandata.gsi.go.jp/xyz/skhb01/10/909/403.geojson",
+      "shelterSha256": "5352f32a956b9a2fbd11add27626f03d8a64ee542ab498a3cdefdbf4a80e40b4"
+    },
+    {
+      "id": "slope",
+      "address": "広島県広島市安佐南区八木三丁目3番9号",
+      "point": {
+        "lat": 34.480118,
+        "lon": 132.491608,
+        "label": "広島県広島市安佐南区八木三丁目３番９号"
+      },
+      "geocodeSource": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E5%BA%83%E5%B3%B6%E7%9C%8C%E5%BA%83%E5%B3%B6%E5%B8%82%E5%AE%89%E4%BD%90%E5%8D%97%E5%8C%BA%E5%85%AB%E6%9C%A8%E4%B8%89%E4%B8%81%E7%9B%AE3%E7%95%AA9%E5%8F%B7",
+      "hazards": [
+        {
+          "id": "flood",
+          "name": "洪水（想定最大規模）",
+          "source": "https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.599Z",
+          "rgba": [
+            255,
+            145,
+            145,
+            255
+          ],
+          "status": "colored",
+          "label": "5〜10m未満",
+          "upper": 10
+        },
+        {
+          "id": "debris",
+          "name": "土砂・土石流",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.599Z",
+          "rgba": [
+            230,
+            200,
+            50,
+            255
+          ],
+          "status": "colored",
+          "label": "警戒区域"
+        },
+        {
+          "id": "steep",
+          "name": "土砂・急傾斜地の崩壊",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.599Z",
+          "rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status": "uncolored",
+          "label": "この画素は着色なし（安全の証明ではありません）"
+        },
+        {
+          "id": "landslide",
+          "name": "土砂・地すべり",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.600Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "surge",
+          "name": "高潮",
+          "source": "https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.600Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "tsunami",
+          "name": "津波",
+          "source": "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/17/113774/52147.png",
+          "pixel": {
+            "z": 17,
+            "x": 113774,
+            "y": 52147,
+            "px": 184,
+            "py": 173
+          },
+          "checkedAt": "2026-11-05T17:55:01.600Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        }
+      ],
+      "files": [
+        {
+          "hazard": "flood",
+          "file": "slope-flood.png",
+          "sha256": "bb6c0596913175d30e94cc66ef3ffe702f09e8b78df2479a35276910687b24a0"
+        },
+        {
+          "hazard": "debris",
+          "file": "slope-debris.png",
+          "sha256": "05179e0144c11dafdf0092ce570fc05aacbeb47028c6d1836508c9e23f48fea2"
+        },
+        {
+          "hazard": "steep",
+          "file": "slope-steep.png",
+          "sha256": "03a9da65ad10af643c5351ff197f46b4e23109969eb8e91b37064c62608e1463"
+        }
+      ],
+      "shelterFile": "slope-shelters.geojson",
+      "shelterSource": "https://cyberjapandata.gsi.go.jp/xyz/skhb01/10/888/407.geojson",
+      "shelterSha256": "0e6452d47b6a466bee091af8309c4be7d082a12d24aa4e0305a300d2e0ab7f38"
+    },
+    {
+      "id": "hill",
+      "address": "東京都文京区本郷七丁目3番1号",
+      "point": {
+        "lat": 35.714146,
+        "lon": 139.763214,
+        "label": "東京都文京区本郷七丁目３番"
+      },
+      "geocodeSource": "https://msearch.gsi.go.jp/address-search/AddressSearch?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%87%E4%BA%AC%E5%8C%BA%E6%9C%AC%E9%83%B7%E4%B8%83%E4%B8%81%E7%9B%AE3%E7%95%AA1%E5%8F%B7",
+      "hazards": [
+        {
+          "id": "flood",
+          "name": "洪水（想定最大規模）",
+          "source": "https://disaportaldata.gsi.go.jp/raster/01_flood_l2_shinsuishin_data/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.087Z",
+          "rgba": [
+            0,
+            0,
+            0,
+            0
+          ],
+          "status": "uncolored",
+          "label": "この画素は着色なし（安全の証明ではありません）"
+        },
+        {
+          "id": "debris",
+          "name": "土砂・土石流",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_dosekiryukeikaikuiki/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.088Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "steep",
+          "name": "土砂・急傾斜地の崩壊",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_kyukeishakeikaikuiki/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.088Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "landslide",
+          "name": "土砂・地すべり",
+          "source": "https://disaportaldata.gsi.go.jp/raster/05_jisuberikeikaikuiki/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.089Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "surge",
+          "name": "高潮",
+          "source": "https://disaportaldata.gsi.go.jp/raster/03_hightide_l2_shinsuishin_data/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.089Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        },
+        {
+          "id": "tsunami",
+          "name": "津波",
+          "source": "https://disaportaldata.gsi.go.jp/raster/04_tsunami_newlegend_data/17/116422/51598.png",
+          "pixel": {
+            "z": 17,
+            "x": 116422,
+            "y": 51598,
+            "px": 59,
+            "py": 132
+          },
+          "checkedAt": "2026-11-05T17:55:02.089Z",
+          "status": "unavailable",
+          "label": "取得できませんでした（区域外とは判定しません）",
+          "error": "HTTP 404"
+        }
+      ],
+      "files": [
+        {
+          "hazard": "flood",
+          "file": "hill-flood.png",
+          "sha256": "f8464e2128fdea6b7c58bf7bb4f0cf60538b9959df5439a45453f7db52f8c2a8"
+        }
+      ],
+      "shelterFile": "hill-shelters.geojson",
+      "shelterSource": "https://cyberjapandata.gsi.go.jp/xyz/skhb01/10/909/403.geojson",
+      "shelterSha256": "5352f32a956b9a2fbd11add27626f03d8a64ee542ab498a3cdefdbf4a80e40b4"
+    }
+  ]
+}

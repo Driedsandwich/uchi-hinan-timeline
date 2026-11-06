@@ -1,0 +1,35 @@
+{
+  "at": "2026-11-06T02:19:58.263Z",
+  "base": "http://127.0.0.1:5174",
+  "viewport": "390x844",
+  "samples": [
+    {
+      "sample": 1,
+      "decision": "leave",
+      "shelter": "こども発達センター",
+      "distanceM": 3914,
+      "aiCalls": 0,
+      "overflow": false
+    },
+    {
+      "sample": 2,
+      "decision": "leave",
+      "shelter": "梅林小学校",
+      "distanceM": 70,
+      "aiCalls": 0,
+      "overflow": false
+    },
+    {
+      "sample": 3,
+      "decision": "check",
+      "shelter": "忍岡小学校",
+      "distanceM": 319,
+      "aiCalls": 0,
+      "overflow": false
+    }
+  ],
+  "freshInput": true,
+  "shareNoAPI": true,
+  "errorRecovery": true,
+  "browserErrors": []
+}

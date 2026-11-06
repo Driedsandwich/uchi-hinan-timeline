@@ -1,0 +1,129 @@
+{
+  "at": "2026-11-05T18:54:53.987Z",
+  "provider": "mock",
+  "realAI": "未実施（別コマンド）",
+  "cases": 14,
+  "matched": 172,
+  "total": 176,
+  "accuracy": 97.73,
+  "results": [
+    {
+      "id": "c01",
+      "matched": 24,
+      "total": 24,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c02",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c03",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c04",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c05",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c06",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c07",
+      "matched": 16,
+      "total": 16,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c08",
+      "matched": 8,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c09",
+      "matched": 8,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c10",
+      "matched": 8,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c11",
+      "matched": 8,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c12",
+      "matched": 8,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c13-unseen",
+      "matched": 6,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    },
+    {
+      "id": "c14-negation",
+      "matched": 6,
+      "total": 8,
+      "aiCalls": 0,
+      "passSchema": true
+    }
+  ],
+  "publicResults": [
+    {
+      "id": "plain",
+      "checks": 6,
+      "mode": "live",
+      "pass": true
+    },
+    {
+      "id": "slope",
+      "checks": 6,
+      "mode": "live",
+      "pass": true
+    },
+    {
+      "id": "hill",
+      "checks": 6,
+      "mode": "live",
+      "pass": true
+    }
+  ]
+}
